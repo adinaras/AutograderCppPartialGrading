@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd /autograder/source
+cp autograder.py /autograder/submission/
+cp tests.bats /autograder/submission/
+cp -R tests /autograder/submission/
+cp weights.txt /autograder/submission/
+cp makefile /autograder/submission/
+
+cd /autograder/submission
+make clean
+bats tests.bats | tee results.tap
+python3 autograder.py
+cp results.json /autograder/results/

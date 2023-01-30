@@ -1,0 +1,65 @@
+Length of the array: 20
+Array A: 90 3 71 195 135 163 136 70 62 137 183 18 92 170 148 82 120 122 175 17 
+Array B: 3 17 18 62 70 71 82 90 92 120 122 135 136 137 148 163 170 175 183 195 
+
+Find: 
+Element 70  found at 4 in B
+Element 170  found at 16 in B
+Element 18  found at 2 in B
+Element 82  found at 6 in B
+Element 80  not found in B
+
+Element 70  found at 7 in A
+Element 170  found at 13 in A
+Element 18  found at 11 in A
+Element 82  found at 15 in A
+Element 80  not found in A
+
+SumPairs: 
+B: 
+242
+ = 120 + 122
+110
+ = 18 + 92
+74
+ = 3 + 71
+10
+
+
+A: 
+242
+ = 120 + 122
+110
+ = 18 + 92
+74
+ = 3 + 71
+10
+
+Remove: 
+Removing 137 at 13 in B
+Removing 82 at 6 in B
+Removing 17 at 1 in B
+Element 81  not found in B
+Removing 62 at 2 in B
+
+Removing 137 at 9 in A
+Removing 82 at 14 in A
+Removing 17 at 17 in A
+Element 81  not found in A
+Removing 62 at 8 in A
+
+After removal Array A: 90 3 71 195 135 163 136 70 183 18 92 170 148 120 122 175 
+After removal Array B: 3 18 70 71 90 92 120 122 135 136 148 163 170 175 183 195 
+
+Insert: 
+Inserting 65 in B
+Inserting 45 in B
+Inserting 80 in B
+
+Inserting 65 in A
+Inserting 45 in A
+Inserting 80 in A
+
+After insertions Array A: 90 3 71 195 135 163 136 70 183 18 92 170 148 120 122 175 65 45 80 
+After insertions Array B: 3 18 45 65 70 71 80 90 92 120 122 135 136 148 163 170 175 183 195 
+
