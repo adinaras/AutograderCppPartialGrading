@@ -1,4 +1,4 @@
-# AUTOGRADER for GRADESCOPE using diff with partial grading
+# AUTOGRADER C++ for GRADESCOPE using diff with partial grading
 ## Description:
 ### Uses diff command to compare expected output with student's submission output
 ### Utilizes partial grading for each test case
